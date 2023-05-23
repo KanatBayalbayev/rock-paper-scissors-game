@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-regular-svg-icons";
 import rock from "./assets/rock-main.PNG";
 import paper from "./assets/paper-main.PNG";
 import scissors from "./assets/scissors-main.PNG";
@@ -68,7 +67,7 @@ const App = () => {
   };
   useEffect(() => {
     dispatch(gameActions.getScores());
-  }, []);
+  },);
   const resetGame = () => {
     dispatch(gameActions.resetScores());
   };
