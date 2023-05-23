@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Проект "Камень, ножницы, бумага" на React с использованием useEffect, Redux Toolkit и SCSS является интерактивной игрой, где пользователь может сражаться против компьютера, выбирая одну из трех доступных опций: камень, ножницы или бумагу. Описание проекта может выглядеть следующим образом:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Начало игры:
+   - Пользователь запускает игру и видит экран с выбором опций и текущим счетом.
+   - Компьютер также готов к игре.
+2. Игровой процесс:
+   - Пользователь выбирает одну из трех опций: камень, ножницы или бумагу.
+   - Компьютер также случайным образом выбирает одну из трех опций.
+   - Выборы пользователя и компьютера сравниваются для определения победителя.
+   - Результат показывается на экране, указывая, кто выиграл раунд или является ли результат ничьей.
+   - Счет обновляется соответствующим образом.
+3. Конец игры:
+   - Игра продолжается до достижения заданного числа побед (например, 5).
+   - Когда один из игроков достигает этого числа побед, игра завершается.
+   - Отображается окончательный результат, показывающий, кто победил.
+4. Дополнительные функциональности:
+   - Использование useEffect для обработки изменений состояния игры и обновления интерфейса.
+   - Использование Redux Toolkit для управления состоянием игры, такими как текущий счет и результаты раундов.
+   - Использование SCSS для стилизации компонентов и создания привлекательного пользовательского интерфейса.
+   - Возможность начать новую игру после завершения предыдущей.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Проект "Камень, ножницы, бумага" на React с использованием useEffect, Redux Toolkit и SCSS предлагает интересную и веселую игровую экспериенцию для пользователей, где они могут соревноваться с компьютером и наслаждаться динамичным взаимодействием с приложением.
