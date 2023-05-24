@@ -33,7 +33,6 @@ const App = () => {
     setTimeout(() => {
       dispatch(gameActions.getOppReady());
     }, 700);
-    
   };
   const userReady = (pick) => {
     dispatch(gameActions.getUserReady(pick));
@@ -67,7 +66,7 @@ const App = () => {
   };
   useEffect(() => {
     dispatch(gameActions.getScores());
-  },);
+  });
   const resetGame = () => {
     dispatch(gameActions.resetScores());
   };
@@ -143,7 +142,7 @@ const App = () => {
         ) : (
           <div className="btns">
             <button onClick={startNewGame}>Start Game</button>
-            <button onClick={resetGame}>Reset Total Scores</button>
+            <button onClick={resetGame}>Reset Scores</button>
             <div className="details">
               <p>Won: {won}</p>
               <p>Lost: {lost}</p>
